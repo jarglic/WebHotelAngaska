@@ -1,0 +1,103 @@
+body {
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("img/Hotel14.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #050505;
+   
+  }
+
+  h1 {
+    text-align: center;
+    /* background-color: #fafcfa; */
+    color: rgb(19, 19, 18);
+    font-size: 60px;
+    margin-top: 5px;
+    
+      }
+
+  .botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+  }
+
+  .boton {
+    margin: 0 50px;
+    padding: 10px 60px;
+    background-color: #f4f3e8;
+    color: rgb(14, 15, 14);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 20px;
+}
+
+  #contenedor-imagen {
+    width: 100%;
+    margin-left: 90px;
+    padding: 50px 60px;
+   
+}
+
+  #contenedor-formulario {
+    float: right;
+    width: 20%; 
+    margin-right: 125px;
+    padding: 20px 60px;
+  }
+  
+
+  #formulario {
+    border-radius: 10px;
+    background-color: #5a6895; 
+    padding: 10px;
+  }
+
+  #formulario label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #formulario input {
+    
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+
+  #formulario button {
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+#bienvenida-hotel {
+  color: rgb(20, 20, 20);
+  justify-content: center;
+  text-align: justify;
+  padding: 13px 69px;
+  font-size: 25px;
+  background-color: #f4f3e86f;
+  border: none;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+  
