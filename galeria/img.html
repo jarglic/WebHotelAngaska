@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img.css">
+    
+    <title>Galeria</title>
+    <!-- Enlaces a tus archivos de estilo (CSS), scripts (JS), u otras dependencias -->
+</head>
+<body>
+    <h1>GALERIA HOTEL</h1>
+    <br>
+
+<ol>
+    <div class="imagen" onclick="abrirImagen('img/png/Hotel4.png')">
+        <img src="img/png/Hotel4.png" alt="Imagen 1">
+    </div>
+
+    <div class="imagen" onclick="abrirImagen('img/png/Hotel2.png')">
+        <img src="img/png/Hotel2.png" alt="Imagen 2">
+    </div>
+
+    <div class="imagen" onclick="abrirImagen('img/png/Hotel3.png')">
+        <img src="img/png/Hotel3.png" alt="Imagen 3">
+    </div>
+    <div class="imagen" onclick="abrirImagen('img/png/Hotel5.png')">
+        <img src="img/png/Hotel5.png" alt="Imagen 4">
+    </div>
+
+    <div class="imagen" onclick="abrirImagen('img/png/Hotel6.png')">
+        <img src="img/png/Hotel6.png" alt="Imagen 5">
+    </div>
+
+    <div class="imagen" onclick="abrirImagen('img/png/Hotel7.png')">
+        <img src="img/png/Hotel7.png" alt="Imagen 6">
+    </div>
+
+    <div id="overlay" onclick="cerrarImagen()">
+        <div id="imagen-ampliada">
+            <img id="imagen-ampliada-src" alt="Imagen Ampliada">
+        </div>
+    </div>
+
+    <script src="logicaimg.js"></script>
+
+</ol>
+
+   
+
+</body>
+</html>

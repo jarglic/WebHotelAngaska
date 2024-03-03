@@ -1,0 +1,81 @@
+/* body {
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("/galeria/img/Hotel14.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #050505;
+   
+  }
+#contenedor-imagen {
+    width: 70%;
+    margin-left: 140px;
+    padding: 40px 50px;
+    margin-top: -40px;
+   
+}
+#contenedor-imagen1 {
+    width: 50%;
+    margin-left: 140px;
+    padding: 40px 50px;
+    margin-top: -40px;
+   
+}
+
+.boton {
+    width: 20%;
+    margin-left: 140px;
+    padding: 10px 10px;
+    margin-top: -40px;
+} */
+h1 {
+    text-align: center;
+    /* background-color: #fafcfa; */
+    color: rgb(19, 19, 18);
+    font-size: 60px;
+    margin-top: 1px;
+    
+      }
+
+body {
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("/galeria/img/Hotel14.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #050505;
+    
+}
+
+.contenedor {
+    width: 50%;
+    padding: 10px 50px;
+    margin-top: -40px;
+    
+}
+
+.contenedor img {
+    width: 15%;
+    border-radius: 30px;
+    
+}
+
+.boton {
+    display: center;
+    width: 20%;
+    padding: 10px 10px;
+    margin-top: 0%;
+    margin-left: 650px;
+    background-color: #9fc5df;
+    border-radius: 30px;
+}
+
+
+ol{
+    display: flex;
+    flex-direction: row;
+
+}
+
